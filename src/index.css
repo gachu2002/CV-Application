@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Reset body style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Reset a tag style */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset ul style */
+ul {
+  list-style: none;
+}
+
+/* Reset button style */
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Reset label style */
+label {
+    font-weight: 550;
+}
+
+/* Reset input style */
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Set heading styles */
+h1,h2,h3,
+h4,h5,h6 {
+  font-weight: 800;
+}
+
+/* Set paragraph styles */
+p {
+  font-weight: 400;
+}
